@@ -30,7 +30,7 @@ libc         = "0.2"
 bitflags     = "1.0"
 num-traits   = "0.2"
 nalgebra     = "0.16"
-ncollide3d   = "0.17"
+ncollide3d = { git = "https://github.com/jojolepro/ncollide", branch = "collidegroup" }
 image        = "0.19"
 serde        = "1.0"
 serde_derive = "1.0"
